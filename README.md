@@ -6,9 +6,9 @@ The components used in my project are :
 
 Libraries:
 
-OpenCV (cv2)
-NumPy (np)
-Matplotlib (plt)
+OpenCV (cv2),
+NumPy (np),
+Matplotlib (plt),
 TensorFlow (tf)
 
 MNIST Dataset:
@@ -17,11 +17,10 @@ MNIST Dataset:
 Data Preprocessing:
   Normalization using tf.keras.utils.normalize.
   
-Neural Network Architecture:
-   Sequential model with layers:
-      Flatten layer
-      Dense layers (with ReLU activation)
-      Output Dense layer (with softmax activation)
+Neural Network Architecture (Sequential model):
+      Flatten layer,
+      Dense layers (with ReLU activation),
+      Output Dense layer (with softmax activation).
       
 Model Compilation:
    Using model.compile with 'adam' optimizer and 'sparse_categorical_crossentropy' loss.
@@ -33,7 +32,7 @@ Model Saving:
    Saved using model.save.
 
 Custom Image Testing:
-   Looping through custom images using os.path.isfile.
-   Reading and preprocessing images using OpenCV. 
-   Making predictions using the trained model.
+   Looping through custom images using os.path.isfile,
+   Reading and preprocessing images using OpenCV,
+   Making predictions using the trained model,
    Displaying images and predictions using Matplotlib.
